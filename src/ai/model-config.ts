@@ -10,7 +10,7 @@ import { googleAI } from '@genkit-ai/googleai';
 // Model identifiers
 const MODELS = {
     // Gemini 3.1 Flash - latest model
-    GEMINI_3_1_FLASH: 'gemini-3.1-flash',
+    GEMINI_3_1_FLASH: 'gemini-3.1-flash-lite-preview',
     // Stable production model
     GEMINI_2_FLASH: 'gemini-2.5-flash',
     // Pro model for complex reasoning
