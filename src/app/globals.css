@@ -1,0 +1,383 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   PRODUCTION-READY AGRITECH DESIGN SYSTEM
+   Clean, accessible, enterprise-grade UI
+   ============================================ */
+
+@layer base {
+  :root {
+    /* Light Mode - Clean whites with subtle warmth */
+    --background: 0 0% 98%;
+    --foreground: 210 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 15% 15%;
+
+    /* Primary - Professional green (AgriTech) */
+    --primary: 142 50% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 10% 95%;
+    --secondary-foreground: 210 15% 25%;
+
+    --muted: 210 10% 94%;
+    --muted-foreground: 210 10% 45%;
+
+    /* Accent - Warm amber for CTAs */
+    --accent: 38 90% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 15% 88%;
+    --input: 210 15% 88%;
+    --ring: 142 50% 40%;
+
+    --radius: 8px;
+
+    /* Semantic Colors */
+    --success: 142 60% 40%;
+    --warning: 38 90% 50%;
+    --error: 0 70% 50%;
+    --info: 210 70% 50%;
+  }
+
+  .dark {
+    /* Dark Mode - Deep slate with green accents */
+    --background: 220 20% 8%;
+    --foreground: 210 20% 95%;
+
+    --card: 220 20% 10%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 220 20% 10%;
+    --popover-foreground: 210 20% 95%;
+
+    /* Primary - Bright but not neon green */
+    --primary: 142 55% 48%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 210 15% 85%;
+
+    --muted: 220 15% 14%;
+    --muted-foreground: 210 15% 60%;
+
+    /* Accent - Warm amber */
+    --accent: 38 85% 55%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 18%;
+    --input: 220 15% 15%;
+    --ring: 142 55% 48%;
+
+    --radius: 8px;
+
+    /* Semantic Colors */
+    --success: 142 55% 48%;
+    --warning: 38 85% 55%;
+    --error: 0 65% 55%;
+    --info: 210 65% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply text-foreground;
+    background-color: hsl(var(--background));
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-headline tracking-tight;
+  }
+
+  h1 {
+    @apply text-2xl font-bold sm:text-3xl;
+  }
+
+  h2 {
+    @apply text-xl font-semibold sm:text-2xl;
+  }
+
+  h3 {
+    @apply text-lg font-semibold;
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Subtle hover states */
+  .interactive-element {
+    @apply transition-colors duration-150;
+  }
+
+  .interactive-element:hover {
+    @apply bg-muted/50;
+  }
+
+  .interactive-element:active {
+    @apply bg-muted;
+  }
+}
+
+/* ============================================
+   COMPONENT OVERRIDES
+   Production-ready card styles
+   ============================================ */
+
+.bg-card {
+  background-color: hsl(var(--card)) !important;
+  border: 1px solid hsl(var(--border));
+}
+
+.dark .bg-card {
+  background-color: hsl(var(--card)) !important;
+}
+
+.dark .bg-muted {
+  background-color: hsl(var(--muted)) !important;
+}
+
+.dark .bg-popover {
+  background-color: hsl(var(--popover)) !important;
+}
+
+.dark .bg-background {
+  background-color: hsl(var(--background)) !important;
+}
+
+.dark .bg-secondary {
+  background-color: hsl(var(--secondary)) !important;
+}
+
+/* ============================================
+   SEMANTIC STATUS INDICATORS
+   ============================================ */
+
+.status-success {
+  @apply text-green-600 dark:text-green-400;
+}
+
+.status-warning {
+  @apply text-amber-600 dark:text-amber-400;
+}
+
+.status-error {
+  @apply text-red-600 dark:text-red-400;
+}
+
+.status-info {
+  @apply text-blue-600 dark:text-blue-400;
+}
+
+/* Status badges */
+.badge-success {
+  @apply bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400;
+}
+
+.badge-warning {
+  @apply bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-400;
+}
+
+.badge-error {
+  @apply bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400;
+}
+
+.badge-info {
+  @apply bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400;
+}
+
+/* ============================================
+   DATA DISPLAY PATTERNS
+   ============================================ */
+
+/* Stat cards */
+.stat-value {
+  @apply text-2xl font-bold tracking-tight;
+}
+
+.stat-label {
+  @apply text-sm text-muted-foreground;
+}
+
+.stat-change-positive {
+  @apply text-sm text-green-600 dark:text-green-400 font-medium;
+}
+
+.stat-change-negative {
+  @apply text-sm text-red-600 dark:text-red-400 font-medium;
+}
+
+/* Data tables */
+.data-table {
+  @apply w-full text-sm;
+}
+
+.data-table th {
+  @apply text-left font-medium text-muted-foreground py-3 px-4;
+}
+
+.data-table td {
+  @apply py-3 px-4 border-t border-border;
+}
+
+/* ============================================
+   FORM ELEMENTS
+   ============================================ */
+
+.form-label {
+  @apply text-sm font-medium mb-1.5 block;
+}
+
+.form-hint {
+  @apply text-xs text-muted-foreground mt-1;
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+
+.nav-link {
+  @apply flex items-center gap-3 px-3 py-2 rounded-md text-muted-foreground transition-colors;
+}
+
+.nav-link:hover {
+  @apply bg-muted text-foreground;
+}
+
+.nav-link.active {
+  @apply bg-primary/10 text-primary font-medium;
+}
+
+/* ============================================
+   BUTTONS - Standardized
+   ============================================ */
+
+.btn-primary {
+  @apply bg-primary text-primary-foreground hover:bg-primary/90 font-medium;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-secondary-foreground hover:bg-secondary/80 font-medium;
+}
+
+.btn-ghost {
+  @apply hover:bg-muted text-muted-foreground hover:text-foreground;
+}
+
+/* ============================================
+   ANIMATIONS - Subtle, purposeful
+   ============================================ */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.2s ease-out;
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background;
+}
+
+/* Skip link for keyboard users */
+.skip-link {
+  @apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md;
+}
+
+/* ============================================
+   SCROLLBAR STYLING
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.3);
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
