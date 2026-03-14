@@ -3,7 +3,7 @@
 
 import { Wrapper } from "@googlemaps/react-wrapper";
 import { usePathname } from 'next/navigation';
-import { AgrisenceLogo } from '@/components/agrisence-logo';
+import { AgridocLogo } from '@/components/agridoc-logo';
 import { UserNav } from "@/components/user-nav";
 import Link from "next/link";
 import { BottomNav } from "@/components/bottom-nav";
@@ -46,8 +46,8 @@ function AppLayoutContent({ children }: { children: React.ReactNode }) {
         "border-border bg-background/30 dark:bg-black/30"
       )}>
         <Link href="/dashboard" className="flex items-center gap-2">
-            <AgrisenceLogo className="h-8 w-auto" />
-            <span className="text-xl font-semibold">AgriSence</span>
+            <AgridocLogo className="h-8 w-auto" />
+            <span className="text-xl font-semibold">AgriDoc</span>
         </Link>
         <TopNav />
         <div className="flex items-center gap-4">

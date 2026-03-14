@@ -15,7 +15,7 @@ import {
 } from 'firebase/auth';
 import { auth } from '@/lib/firebase/config';
 import { useToast } from "@/hooks/use-toast";
-import { AgrisenceLogo } from '@/components/agrisence-logo';
+import { AgridocLogo } from '@/components/agridoc-logo';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { useAuth } from '@/hooks/use-auth';
 import Loading from './(app)/loading';
@@ -59,7 +59,7 @@ export default function LoginPage() {
             }
             const userCredential = await createUserWithEmailAndPassword(auth, email, password);
             await updateProfile(userCredential.user, { displayName: name });
-            toast({ title: 'Sign up successful!', description: 'Welcome to AgriSence.' });
+            toast({ title: 'Sign up successful!', description: 'Welcome to AgriDoc.' });
         } else {
             await signInWithEmailAndPassword(auth, email, password);
             toast({ title: 'Sign in successful!', description: 'Welcome back.' });
@@ -102,9 +102,9 @@ export default function LoginPage() {
             <Card className="rounded-3xl">
                <CardHeader className="text-center">
                  <div className="w-24 h-24 mx-auto">
-                    <AgrisenceLogo />
+                    <AgridocLogo />
                  </div>
-                 <CardTitle className="text-3xl font-bold tracking-tight pt-2">AgriSence</CardTitle>
+                 <CardTitle className="text-3xl font-bold tracking-tight pt-2">AgriDoc</CardTitle>
                  <CardDescription>
                     Your AI-Powered Farming Assistant
                  </CardDescription>

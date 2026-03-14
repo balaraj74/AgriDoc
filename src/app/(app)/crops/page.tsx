@@ -2,7 +2,7 @@
 import CropsPageClient from "./CropsPageClient";
 
 export const metadata = {
-    title: "Crop Management - AgriSence",
+    title: "Crop Management - AgriDoc",
 };
 
 export default function CropsPage() {

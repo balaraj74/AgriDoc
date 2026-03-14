@@ -277,7 +277,7 @@ export default function ChatbotPage() {
         <CardHeader className="flex flex-row justify-between items-center">
           <div className="space-y-1.5">
             <div className="flex items-center gap-2">
-              <CardTitle>Chat with AgriSence AI</CardTitle>
+              <CardTitle>Chat with AgriDoc AI</CardTitle>
               {isLoadingContext ? (
                 <Badge variant="secondary" className="text-xs">
                   <Loader2 className="h-3 w-3 animate-spin mr-1" />
@@ -315,7 +315,7 @@ export default function ChatbotPage() {
                     <Bot className="h-12 w-12 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">Welcome to AgriSence AI!</h3>
+                    <h3 className="font-semibold text-lg">Welcome to AgriDoc AI!</h3>
                     <p className="text-sm text-muted-foreground max-w-sm mx-auto">
                       I'm your intelligent farming assistant. Ask me about crop diseases, market prices,
                       weather impacts, or any farming question!

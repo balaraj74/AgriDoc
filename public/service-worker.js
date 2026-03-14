@@ -1,5 +1,5 @@
 // Define the cache name, including a version number for easy updates.
-const CACHE_NAME = 'agrisence-v1';
+const CACHE_NAME = 'agridoc-v1';
 
 // List the essential files that make up the app's shell.
 const urlsToCache = [

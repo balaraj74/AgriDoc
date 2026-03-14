@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="public/logo.svg" alt="AgriSence Logo" width="120" height="120"/>
+  <img src="public/logo.svg" alt="AgriDoc Logo" width="120" height="120"/>
 </p>
 
-<h1 align="center">🌾 AgriSence</h1>
+<h1 align="center">🌾 AgriDoc</h1>
 <h3 align="center">AI-Powered Smart Farming Assistant for Indian Farmers</h3>
 
 <p align="center">
@@ -39,7 +39,7 @@
 
 ## 🌱 About
 
-**AgriSence** is an innovative AI-powered agricultural platform built to revolutionize farming practices in India. By leveraging the power of Google's Gemini AI, real-time weather data, satellite imagery, and market intelligence, AgriSence provides farmers with actionable insights to maximize crop yields, reduce losses, and improve profitability.
+**AgriDoc** is an innovative AI-powered agricultural platform built to revolutionize farming practices in India. By leveraging the power of Google's Gemini AI, real-time weather data, satellite imagery, and market intelligence, AgriDoc provides farmers with actionable insights to maximize crop yields, reduce losses, and improve profitability.
 
 ### 🎯 Mission
 To bridge the technology gap in Indian agriculture by providing farmers with accessible, intelligent, and multilingual farming assistance.
@@ -242,7 +242,7 @@ Empowering every farmer with AI-driven insights for sustainable and profitable f
 ## 📁 Project Structure
 
 ```
-AgriSence/
+AgriDoc/
 ├── 📂 src/
 │   ├── 📂 app/                    # Next.js App Router
 │   │   ├── 📂 (app)/              # Protected app routes
@@ -339,8 +339,8 @@ AgriSence/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/balaraj74/AgriSence.git
-cd AgriSence
+git clone https://github.com/balaraj74/AgriDoc.git
+cd AgriDoc
 
 # 2. Install dependencies
 npm install
@@ -388,7 +388,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the application.
 
 4. **Deploy via Firebase Console:**
    - Go to [Firebase Console](https://console.firebase.google.com/)
-   - Select project: `agrisence-1dc30`
+   - Select project: `agridoc-1dc30`
    - Navigate to **App Hosting**
    - Connect your GitHub repository
    - Firebase will auto-deploy on each push

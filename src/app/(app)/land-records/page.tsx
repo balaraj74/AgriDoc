@@ -99,7 +99,7 @@ export default function LandRecordsPage() {
         <Info className="h-4 w-4" />
         <AlertTitle>How it Works</AlertTitle>
         <AlertDescription>
-          AgriSence helps you quickly access official government websites for land records. Select your state, and we'll provide a direct link to the portal. For some states, you can pre-select your district.
+          AgriDoc helps you quickly access official government websites for land records. Select your state, and we'll provide a direct link to the portal. For some states, you can pre-select your district.
         </AlertDescription>
       </Alert>
 

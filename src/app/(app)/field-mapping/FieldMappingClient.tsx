@@ -18,7 +18,7 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import type { User } from 'firebase/auth';
 
-const MAP_ID = "AGRISENCE_MAP";
+const MAP_ID = "AGRIDOC_MAP";
 const ACRES_PER_SQ_METER = 0.000247105;
 
 // #region Helper Functions

@@ -60,7 +60,7 @@ const farmingAdviceChatbotFlow = ai.defineFlow(
           ).join('\n');
       }
 
-      const systemPrompt = `You are an expert AI agronomist assistant for **AgriSence**, an agriculture app for Indian farmers. 
+      const systemPrompt = `You are an expert AI agronomist assistant for **AgriDoc**, an agriculture app for Indian farmers. 
 
 Your role is to provide:
 1. **Accurate, actionable farming advice** tailored to Indian agriculture

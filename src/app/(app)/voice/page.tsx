@@ -206,7 +206,7 @@ export default function VoicePage() {
         <div className="bg-primary/10 p-3 rounded-lg"><Mic className="h-8 w-8 text-primary" /></div>
         <div>
           <h1 className="text-3xl font-bold font-headline">Voice Assistant</h1>
-          <p className="text-muted-foreground">Interact with AgriSence using your voice.</p>
+          <p className="text-muted-foreground">Interact with AgriDoc using your voice.</p>
         </div>
       </div>
       
@@ -287,7 +287,7 @@ export default function VoicePage() {
                 <div className="flex items-start gap-3">
                   <Bot className="h-5 w-5 text-primary flex-shrink-0 mt-1"/>
                   <div>
-                    <p className="font-semibold">AgriSence says:</p>
+                    <p className="font-semibold">AgriDoc says:</p>
                     <p className="text-muted-foreground">{response}</p>
                   </div>
                 </div>

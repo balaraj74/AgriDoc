@@ -18,7 +18,7 @@ Use this checklist to ensure a smooth deployment to Firebase App Hosting.
 - [ ] **Correct Firebase Project Selected**
   ```bash
   firebase use
-  # Should show: agrisence-1dc30
+  # Should show: agridoc-1dc30
   ```
 
 - [ ] **Environment Variables Set**
@@ -55,7 +55,7 @@ Use this checklist to ensure a smooth deployment to Firebase App Hosting.
   ```json
   {
     "projects": {
-      "default": "agrisence-1dc30"
+      "default": "agridoc-1dc30"
     }
   }
   ```
@@ -120,7 +120,7 @@ Use this checklist to ensure a smooth deployment to Firebase App Hosting.
 
 - [ ] **Connected to Firebase Console**
   1. [ ] Go to [Firebase Console](https://console.firebase.google.com/)
-  2. [ ] Select project: `agrisence-1dc30`
+  2. [ ] Select project: `agridoc-1dc30`
   3. [ ] Navigate to **App Hosting**
   4. [ ] Click **Get Started** or **Add Backend**
   5. [ ] Connect GitHub repository
@@ -154,7 +154,7 @@ Use this checklist to ensure a smooth deployment to Firebase App Hosting.
 - [ ] **Health Check Passed**
   ```bash
   curl https://your-backend-url/api/health
-  # Should return: {"status":"healthy","timestamp":"...","service":"AgriSence Backend"}
+  # Should return: {"status":"healthy","timestamp":"...","service":"AgriDoc Backend"}
   ```
 
 - [ ] **Test Genkit Endpoint**
@@ -243,5 +243,5 @@ firebase apphosting:backends:delete <backend-id>
 ---
 
 **Last Updated**: December 22, 2025  
-**Project**: AgriSence  
-**Firebase Project**: agrisence-1dc30
+**Project**: AgriDoc  
+**Firebase Project**: agridoc-1dc30

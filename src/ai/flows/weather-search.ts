@@ -63,7 +63,7 @@ const weatherTool = ai.defineTool(
 
     const [weatherResponse, geocodeResponse] = await Promise.all([
       fetch(weatherUrl),
-      fetch(geocodeUrl, { headers: { 'User-Agent': 'AgriSence-App/1.0' } })
+      fetch(geocodeUrl, { headers: { 'User-Agent': 'AgriDoc-App/1.0' } })
     ]);
 
     if (!weatherResponse.ok) {

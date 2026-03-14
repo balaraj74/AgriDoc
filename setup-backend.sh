@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# AgriSence Firebase App Hosting Setup Script
+# AgriDoc Firebase App Hosting Setup Script
 # This script helps you set up the backend for Firebase App Hosting
 
 set -e
 
-echo "🌾 AgriSence - Firebase App Hosting Setup"
+echo "🌾 AgriDoc - Firebase App Hosting Setup"
 echo "=========================================="
 echo ""
 

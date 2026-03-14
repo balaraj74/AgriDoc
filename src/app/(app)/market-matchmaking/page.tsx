@@ -34,7 +34,7 @@ import {
 } from "@/components/ui/dialog";
 
 
-const MAP_ID = "AGRISENCE_MATCHMAKING_MAP";
+const MAP_ID = "AGRIDOC_MATCHMAKING_MAP";
 
 // #region MapComponent
 const MapComponent = ({

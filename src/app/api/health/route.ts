@@ -4,6 +4,6 @@ export async function GET() {
   return NextResponse.json({ 
     status: 'healthy',
     timestamp: new Date().toISOString(),
-    service: 'AgriSence Backend'
+    service: 'AgriDoc Backend'
   });
 }

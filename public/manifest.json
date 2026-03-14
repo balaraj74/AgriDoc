@@ -1,6 +1,6 @@
 {
-  "name": "AgriSence",
-  "short_name": "AgriSence",
+  "name": "AgriDoc",
+  "short_name": "AgriDoc",
   "description": "AI-powered agriculture assistant for Indian farmers.",
   "start_url": "/",
   "display": "standalone",

@@ -56,7 +56,7 @@ export function TopNav() {
           </SheetTrigger>
           <SheetContent side="left">
             <SheetHeader>
-              <SheetTitle className="sr-only">Agrisence Menu</SheetTitle>
+              <SheetTitle className="sr-only">Agridoc Menu</SheetTitle>
             </SheetHeader>
             <nav className="flex flex-col gap-4 mt-8">
               {navItems.map((item) => (

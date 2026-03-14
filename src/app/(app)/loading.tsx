@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { AgrisenceLogo } from '@/components/agrisence-logo';
+import { AgridocLogo } from '@/components/agridoc-logo';
 
 export default function Loading() {
   return (
@@ -13,10 +13,10 @@ export default function Loading() {
         className="flex flex-col items-center gap-4"
       >
         <div className="w-32 h-32">
-          <AgrisenceLogo />
+          <AgridocLogo />
         </div>
         <h1 className="text-3xl font-bold tracking-tight text-foreground">
-          AgriSence
+          AgriDoc
         </h1>
         <p className="text-lg text-muted-foreground">
           Your AI Farming Partner

@@ -13,7 +13,7 @@ import { cn } from '@/lib/utils';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 
-const MAP_ID = "AGRISENCE_FERTILIZER_MAP";
+const MAP_ID = "AGRIDOC_FERTILIZER_MAP";
 
 // Haversine formula to calculate distance
 const getDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => {

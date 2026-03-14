@@ -4,7 +4,7 @@
 import { useEffect, useRef, useState } from 'react';
 import type { Field } from '@/types';
 
-const MAP_ID = "AGRISENCE_SATELLITE_MAP";
+const MAP_ID = "AGRIDOC_SATELLITE_MAP";
 
 export const MapComponent = ({
   center,

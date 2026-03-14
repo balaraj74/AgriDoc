@@ -288,7 +288,7 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent className="overflow-hidden p-0 shadow-2xl max-w-lg border-white/10">
                 <VisuallyHidden.Root>
-                    <DialogTitle>Search AgriSence</DialogTitle>
+                    <DialogTitle>Search AgriDoc</DialogTitle>
                     <DialogDescription>
                         Search for crops, tools, AI features, and more
                     </DialogDescription>
@@ -375,7 +375,7 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
                                 Select
                             </span>
                         </div>
-                        <span>AgriSence Search</span>
+                        <span>AgriDoc Search</span>
                     </div>
                 </div>
             </DialogContent>

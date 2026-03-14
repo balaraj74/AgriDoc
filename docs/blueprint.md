@@ -1,4 +1,4 @@
-# **App Name**: AgriSence
+# **App Name**: AgriDoc
 
 ## Core Features:
 

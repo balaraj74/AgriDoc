@@ -15,7 +15,7 @@
      - Max instances: 10 (auto-scaling)
      - CPU: 1 vCPU, Memory: 512 MiB
      - Environment variables and secrets configured
-   - **`.firebaserc`** - Already configured with project ID: `agrisence-1dc30`
+   - **`.firebaserc`** - Already configured with project ID: `agridoc-1dc30`
    - **`firebase.json`** - Firestore and hosting rules configured
 
 ### 3. Documentation
@@ -164,7 +164,7 @@ npm run dev
    ```
 
 2. **Connect GitHub** (via Firebase Console):
-   - Go to: https://console.firebase.google.com/project/agrisence-1dc30/apphosting
+   - Go to: https://console.firebase.google.com/project/agridoc-1dc30/apphosting
    - Click "Get Started" or "Add Backend"
    - Connect this repository
    - Select main/master branch
@@ -213,7 +213,7 @@ npm run dev
 
 ## 📞 Support
 
-**Project**: AgriSence  
+**Project**: AgriDoc  
 **Team**: Balaraj R, Bharath C D, Mahesh Kumar B, Basavaraj M  
 **Contact**: +91 8431206594
 

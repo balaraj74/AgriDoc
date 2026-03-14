@@ -14,7 +14,7 @@ const inter = Inter({
 
 // Metadata and viewport can be exported from a server component
 export const metadata: Metadata = {
-  title: 'AgriSence - AI Farming Assistant',
+  title: 'AgriDoc - AI Farming Assistant',
   description: 'AI-powered agriculture assistant for Indian farmers',
   manifest: '/manifest.json',
 };

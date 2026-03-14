@@ -33,7 +33,7 @@ const aiItems: AiItem[] = [
   {
     href: '/voice',
     title: 'Voice Assistant',
-    description: 'Interact with AgriSence using your voice.',
+    description: 'Interact with AgriDoc using your voice.',
     icon: Mic,
   },
 ];
