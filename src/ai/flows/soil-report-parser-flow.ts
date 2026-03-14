@@ -49,7 +49,7 @@ const parseSoilReportFlow = ai.defineFlow(
 
       const { output } = await ai.generate({
           prompt: promptPayload, 
-          model: googleAI.model('gemini-2.5-flash'),
+          model: googleAI.model('gemini-3.1-flash'),
           output: { schema: ParseSoilReportOutputSchema }
       });
       

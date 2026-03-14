@@ -117,7 +117,7 @@ Provide a summary of overall market sentiment for today.`;
 
     try {
       const { output } = await ai.generate({
-        model: googleAI.model('gemini-2.5-flash'),
+        model: googleAI.model('gemini-3.1-flash'),
         system: systemPrompt,
         prompt: userPrompt,
         output: { schema: MarketPriceSearchOutputSchema },

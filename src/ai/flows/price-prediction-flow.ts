@@ -107,7 +107,7 @@ Return JSON with:
 
     try {
       const { output } = await ai.generate({
-        model: googleAI.model('gemini-2.5-flash'),
+        model: googleAI.model('gemini-3.1-flash'),
         prompt: prompt,
         output: { schema: PredictMarketPriceOutputSchema },
         config: { temperature: 0.5 },
