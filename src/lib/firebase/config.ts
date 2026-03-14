@@ -7,17 +7,16 @@ import { getPerformance } from "firebase/performance";
 import { getAnalytics, type Analytics } from "firebase/analytics";
 import { getDatabase, type Database } from "firebase/database";
 
-// Your web app's Firebase configuration for agridoc-1dc30
+// Your web app's Firebase configuration for agridocai
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyAd8T2SnKYd0lC464LCU8SPloORnCtf2f8",
-    authDomain: "agridoc-1dc30.firebaseapp.com",
-    databaseURL: "https://agridoc-1dc30-default-rtdb.firebaseio.com",
-    projectId: "agridoc-1dc30",
-    storageBucket: "agridoc-1dc30.firebasestorage.app",
-    messagingSenderId: "948776556057",
-    appId: "1:948776556057:web:59c34ba4ceffdd5901bc88",
-    measurementId: "G-NZ199RVD5G"
+    apiKey: "AIzaSyClR5lVMHR81sEniHgbJwrD-VNAC4sf8R0",
+    authDomain: "agridocai.firebaseapp.com",
+    projectId: "agridocai",
+    storageBucket: "agridocai.firebasestorage.app",
+    messagingSenderId: "879816259212",
+    appId: "1:879816259212:web:6b4085f783450acab1eda9",
+    measurementId: "G-N99XGD35QM"
 };
 
 // Initialize Firebase for client-side usage
@@ -42,4 +41,3 @@ const storage: FirebaseStorage = getStorage(app);
 const realtimeDb: Database = getDatabase(app);
 
 export { app, db, storage, auth, analytics, realtimeDb, firebaseConfig };
-

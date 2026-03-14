@@ -18,7 +18,7 @@ Use this checklist to ensure a smooth deployment to Firebase App Hosting.
 - [ ] **Correct Firebase Project Selected**
   ```bash
   firebase use
-  # Should show: agridoc-1dc30
+  # Should show: agridocai
   ```
 
 - [ ] **Environment Variables Set**
@@ -55,7 +55,7 @@ Use this checklist to ensure a smooth deployment to Firebase App Hosting.
   ```json
   {
     "projects": {
-      "default": "agridoc-1dc30"
+      "default": "agridocai"
     }
   }
   ```
@@ -120,7 +120,7 @@ Use this checklist to ensure a smooth deployment to Firebase App Hosting.
 
 - [ ] **Connected to Firebase Console**
   1. [ ] Go to [Firebase Console](https://console.firebase.google.com/)
-  2. [ ] Select project: `agridoc-1dc30`
+  2. [ ] Select project: `agridocai`
   3. [ ] Navigate to **App Hosting**
   4. [ ] Click **Get Started** or **Add Backend**
   5. [ ] Connect GitHub repository
@@ -244,4 +244,4 @@ firebase apphosting:backends:delete <backend-id>
 
 **Last Updated**: December 22, 2025  
 **Project**: AgriDoc  
-**Firebase Project**: agridoc-1dc30
+**Firebase Project**: agridocai

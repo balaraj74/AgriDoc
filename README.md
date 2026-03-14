@@ -388,7 +388,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the application.
 
 4. **Deploy via Firebase Console:**
    - Go to [Firebase Console](https://console.firebase.google.com/)
-   - Select project: `agridoc-1dc30`
+   - Select project: `agridocai`
    - Navigate to **App Hosting**
    - Connect your GitHub repository
    - Firebase will auto-deploy on each push

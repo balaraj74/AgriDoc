@@ -17,7 +17,7 @@ This application is configured for **Firebase App Hosting**, which provides serv
    ```
 
 3. **Ensure you have access to the project**:
-   - Project ID: `agridoc-1dc30`
+   - Project ID: `agridocai`
 
 ## 🔧 Setup
 
@@ -50,7 +50,7 @@ env:
 ### Option 1: Connect GitHub Repository (Recommended)
 
 1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Select your project: `agridoc-1dc30`
+2. Select your project: `agridocai`
 3. Navigate to **App Hosting** in the left sidebar
 4. Click **Get Started** or **Add Backend**
 5. Connect your GitHub repository
@@ -188,6 +188,6 @@ Once connected to GitHub:
 ---
 
 **Project**: AgriDoc  
-**Firebase Project ID**: agridoc-1dc30  
+**Firebase Project ID**: agridocai  
 **Framework**: Next.js 15.3.3  
 **AI Framework**: Genkit 1.13.0
